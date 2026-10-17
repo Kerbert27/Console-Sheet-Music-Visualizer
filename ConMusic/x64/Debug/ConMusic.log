@@ -1,0 +1,5 @@
+﻿  ConMusic.cpp
+C:\Users\Tyler\source\repos\ConMusic\olcConsoleGameEngine.h(759,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Tyler\source\repos\ConMusic\olcConsoleGameEngine.h(1099,31): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Tyler\source\repos\ConMusic\olcConsoleGameEngine.h(1196,4): warning C4312: 'type cast': conversion from 'DWORD' to 'olcConsoleGameEngine *' of greater size
+  ConMusic.vcxproj -> C:\Users\Tyler\source\repos\ConMusic\x64\Debug\ConMusic.exe

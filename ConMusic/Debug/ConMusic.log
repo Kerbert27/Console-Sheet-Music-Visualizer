@@ -1,0 +1,32 @@
+﻿  ConMusic.cpp
+C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(61,28): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(68,28): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(166,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(169,26): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(228,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(228,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(229,21): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(264,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54): warning C4244:         ]
+  (compiling source file 'ConMusic.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\utility(274,54):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(28,5):
+          see reference to function template instantiation 'std::pair<const PITCH,float>::pair<PITCH,int,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=PITCH,
+              _Other2=int
+          ]
+              C:\Users\Tyler\source\repos\ConMusic\ConMusic.cpp(27,33):
+              see the first reference to 'std::pair<const PITCH,float>::pair' in 'void __cdecl `dynamic initializer for 'frequencies''(void)'
+  
+  ConMusic.vcxproj -> C:\Users\Tyler\source\repos\ConMusic\Debug\ConMusic.exe
